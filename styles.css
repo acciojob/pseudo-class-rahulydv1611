@@ -2,16 +2,14 @@
     margin: 20px;
 }
 
-/* Before content */
 #container::before {
     content: "Before ";
-    color: #f00;
+    color: #f00;        /* 🔴 makes text red */
     font-size: 20px;
 }
 
-/* After content */
 #container::after {
     content: " After";
-    color: #f00;
+    color: #f00;        /* 🔴 makes text red */
     font-size: 20px;
 }
