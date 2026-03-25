@@ -2,14 +2,16 @@
     margin: 20px;
 }
 
+/* BEFORE */
 #container::before {
     content: "Before Element";
-    color: #f00;        /* 🔴 makes text red */
+    color: #f00;
     font-size: 20px;
 }
 
+/* AFTER */
 #container::after {
-    content: " After Element";
-    color: #f00;        /* 🔴 makes text red */
+    content: "After Element";
+    color: #f00;
     font-size: 20px;
 }
